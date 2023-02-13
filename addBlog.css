@@ -1,0 +1,139 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.84);
+    margin:0;
+    padding:0;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 100%;
+    color: white;
+    padding-top: 100px;
+   
+}
+
+input[type=text]{
+    width: 70%;
+    padding: 12px;
+    border: 1px solid rgba(37, 225, 237, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 6px 40px;
+    background-color: rgba(0, 0, 0, 0.84);
+    resize: vertical;
+    color: white;
+}
+input[type=file]
+{
+    margin-left: 40px;
+   
+}
+.card-image{
+    width: 180px;
+    margin: 40px;
+    height: 150px;
+    border-radius: 4px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(37, 225, 237, 1);
+    background-color: rgba(0, 0, 0, 0.84);
+}
+.image{
+    display: flex;
+    flex-direction: column;
+}
+.image div{
+float: right;
+}
+#blogtext{
+    height: 300px;
+    padding: 0px;
+    width: 90%;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 0.84);
+    border: 2px solid rgba(37, 225, 237, 1);
+}
+h2{
+padding-left: 500px;
+font-family: cursive;
+font-size: 30px;
+}
+.btn-preview{
+    
+    outline: 0;
+    display: inline-block;
+    padding: 8px ;
+    color: BLACK;
+    font-family: cursive;
+    background-color: rgba(255, 138, 0, 1);
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-left: 500px;
+    margin-bottom: 300px;
+}
+.btn-preview a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav{
+    
+    border-bottom: 5px solid rgba(255, 138, 0, 1);
+    height: 60px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.84);;
+}
+h3{
+    font-size: 30px;
+    padding: 10px 70px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 40px;
+    line-height: 40px;
+    margin: 0 40px;
+}
+textarea{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    padding:30px;
+}
+.input-control.error input{
+    border-color: #f16d87;
+   
+  }
+  .input-control.success input{
+    border-color: #09c372;
+  }
+  .input-control.error{
+    color: #f16d87;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .input-control input:focus{
+    outline: 0;
+  }
+  .input-control label{
+    float: left;
+   
+  }
+  #error{
+    text-align: center;
+  }
+  #errorimage{
+    margin-left: 40px;
+    font-size: 15px;
+  }

@@ -1,0 +1,137 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.84);
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 100%;
+    color: white;
+   
+
+}
+.image{
+
+    padding: 0px 70px;
+    margin:0px 20px;
+}
+.image img{
+    width: 100%;
+    height: 300px;
+   
+}
+.content{
+    margin:0px 20px;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+.content p,ul{
+
+    padding: 0px 200px;
+    font-size: 20px;
+    line-height: 1.6;
+  
+}
+p{
+    border-bottom: 1px solid black;
+}
+ul{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(37, 225, 237, 1);
+    
+}
+li{
+    padding-top: 15px;
+    font-family: arial;
+    font-family: bold;
+}
+.footer{
+    display: flex;
+   flex-direction: column;
+   row-gap: 20px;
+    /* background-color: rgba(0, 0, 0, 0.24);; */
+    background-color: black;
+    border-top: 9px solid black;
+    height:18rem;
+    margin: 20px;
+    
+}
+
+input[type=text]{
+    background-color: rgba(0, 0, 0, 0.04);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 15px;
+    border: 1px dashed rgba(37, 225, 237, 1);
+    
+}
+.footer textarea{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+    border:none;
+    color: white;
+    border: 1px dashed rgba(37, 225, 237, 1);
+}
+.nav{
+    
+    border-bottom: 5px solid rgba(255, 138, 0, 1);
+    height: 60px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.84);
+    padding:30px;
+   
+    position: fixed;
+}
+h3{
+    font-size: 30px;
+    padding: 4px 70px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    
+}
+#like{
+    height: 40px;
+    background-color:  rgba(0, 0, 0, 0.84);
+    
+  
+    margin: 0 10px;
+    border: 1px solid rgba(255, 138, 0, 1);
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#likesNumber{
+    float: left;
+    margin-left:50px;
+    font-size: 24px;
+}
+.comment{
+    height: 40px;
+    background-color:  rgba(255, 138, 0, 1);
+    width: 20%;
+    border: 1px solid rgba(255, 138, 0, 1);
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    border-radius: 3px;
+    align-self: center;
+    font-weight: bold;
+}
+    
